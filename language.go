@@ -2,8 +2,7 @@ package graphql
 
 import (
 	"fmt"
-
-	"github.com/vektah/gqlparser/ast"
+	"github.com/vektah/gqlparser/v2/ast"
 )
 
 // CollectedField is a representations of a field with the list of selection sets that

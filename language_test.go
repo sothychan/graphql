@@ -1,10 +1,10 @@
 package graphql
 
 import (
+	"github.com/vektah/gqlparser/v2/ast"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/vektah/gqlparser/ast"
 )
 
 func TestApplyFragments_mergesFragments(t *testing.T) {
