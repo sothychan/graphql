@@ -23,7 +23,7 @@ type RemoteSchema struct {
 type QueryInput struct {
 	Query         string                 `json:"query"`
 	QueryDocument *ast.QueryDocument     `json:"-"`
-	OperationName string                 `json:"operationName"`
+	OperationName *string                 `json:"operationName"`
 	Variables     map[string]interface{} `json:"variables"`
 }
 
